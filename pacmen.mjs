@@ -53,7 +53,7 @@ function getRandomInt(min, max) {
 }
 
 function getRandomHeroHead() {
-  return heroesHeadsImages[`${getRandomInt(1, heroesHeadsImages.length-1)}`];
+  return heroesHeadsImages[`${getRandomInt(0, heroesHeadsImages.length-1)}`];
 }
 
 function makeHeroHead() {
